@@ -46,6 +46,7 @@ func (s NotepadImpl) AppendToOtherNotepad(idFrom string, idTo string) error {
 	return nil
 }
 
+// this line is just simple type checking to see if i fit the struct into the interface
 var _ NotepadService = NotepadImpl{}
 
 // ******************************************************************
