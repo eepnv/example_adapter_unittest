@@ -1,5 +1,12 @@
 package layers
 
+/*
+	There is no import in this layer!!! this represents your core business logic,
+	and therefore you can easily replace your frontend code (maybe you use rpc / grpc / websocket
+	or any other future things?) and backend code (replacing database interface, 
+	will be mentioned at end of file)
+*/
+
 // section 1: core data model
 
 //Notepad ...
